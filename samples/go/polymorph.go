@@ -7,6 +7,7 @@ type Shape struct {
 }
 
 func (sq *Shape) Area() float64 {
+	fmt.Println("Calling Shape Area")
 	return sq.area //return area of square
 }
 
